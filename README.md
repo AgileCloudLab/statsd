@@ -1,4 +1,16 @@
-# StatsD [![Build Status][travis-ci_status_img]][travis-ci_statsd] [![Join the chat at https://gitter.im/statsd/statsd](https://badges.gitter.im/statsd/statsd.svg)](https://gitter.im/statsd/statsd?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+## Usage Instructions
+
+`node stats.js config/config.js`
+
+The backend used is `file.json` and the list of guages that are collected
+are in `config/file/file.json`.
+
+The results of the experiment are stored in `logs/file.csv` and `logs/file.json`.
+
+----
+
+
+# StatsD 
 
 A network daemon that runs on the [Node.js][node] platform and
 listens for statistics, like counters and timers, sent over [UDP][udp] or
