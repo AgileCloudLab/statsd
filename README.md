@@ -1,6 +1,6 @@
 ## Usage Instructions
 
-`node stats.js config/config.js`
+`node stats.js config/config.js 1>/dev/null 2>&1 &`
 
 The backend used is `file.json` and the list of guages that are collected
 are in `config/file/file.json`.
